@@ -1,0 +1,29 @@
+TGFF
+graphcount 4
+taskcount 3 1
+periodpercentage 1.0
+multistartnodeprob 1.0
+startnodes 2 1
+taskdegree 6 3
+harddeadlineprob 1.0
+resourcenum 10
+tasktransitiontime 1.0
+periodmul 1 2 3 4
+cleanupfiles false
+posthocresidency true
+calculateperiods true
+multiresidency true
+numberofworkerthreads 1
+solutioncount 1
+releasetimes -1 -1
+deadlines -1 -1
+wcet -1 -1
+residencyconstraints 0 0
+residencydistribution UNIFORM
+residencyPoissonMean 5.0
+residencyBinomialP 0.5
+residencyBinomialN 100
+deadlineequaltoperiod
+saveoutput
+maximizewcet
+debug

@@ -1,0 +1,49 @@
+Basic
+tasknum 9 9
+resourcenum 7 7
+residencyconstraints 3 6
+totalprecedencerelations 4 4
+periodpercentage 100 100
+periodlength 6 8
+residencydistribution UNIFORM
+periodicitydistribution UNIFORM
+periodlengthdistribution UNIFORM
+NORDistribution UNIFORM
+NOPrDistribution UNIFORM
+NOTasksDistribution UNIFORM
+NOResDistribution UNIFORM
+periodlengthpoissonmean 5.0
+periodicityPoissonMean 5.0
+residencyPoissonMean 5.0
+NORPoissonMean 5.0
+NOPrPoissonMean 5.0
+NOTasksPoissonMean 5.0
+NOResPoissonMean 5.0
+periodLengthBinomialP 0.5
+periodLengthBinomialN 100
+periodicityBinomialP 0.5
+periodicityBinomialN 100
+residencyBinomialP 0.5
+residencyBinomialN 100
+NORBinomialP 0.5
+NORBinomialN 100
+NOPrBinomialP 0.5
+NOPrBinomialN 100
+NOTasksBinomialP 0.5
+NOTasksBinomialN 100
+NOResBinomialP 0.5
+NOResBinomialN 100
+multiresidency true
+phasedreleasetimes false
+posthocprecedence false
+posthocresidency false
+subgraphnumber 0
+numberofworkerthreads 1
+solutioncount 1
+releasetimes -1 -1
+deadlines -1 -1
+wcet -1 -1
+saveoutput
+maximizewcet
+deadlineequaltoperiod
+debug
